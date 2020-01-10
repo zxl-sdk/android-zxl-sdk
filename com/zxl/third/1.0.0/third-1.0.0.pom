@@ -29,9 +29,9 @@
   </scm>
   <dependencies>
     <dependency>
-      <groupId>Tool</groupId>
+      <groupId>com.zxl</groupId>
       <artifactId>base</artifactId>
-      <version>unspecified</version>
+      <version>1.0.1-20200108-1700</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
