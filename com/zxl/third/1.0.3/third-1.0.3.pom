@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zxl</groupId>
+  <artifactId>third</artifactId>
+  <version>1.0.3</version>
+  <packaging>aar</packaging>
+  <name>third</name>
+  <description>third login pay</description>
+  <url>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>Apache License Version 2.0</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zxl</id>
+      <name>zxl</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</connection>
+    <developerConnection>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</developerConnection>
+    <url>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.zxl</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0.1-20200111-1625</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tencent.mm.opensdk</groupId>
+      <artifactId>wechat-sdk-android-with-mta</artifactId>
+      <version>+</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
