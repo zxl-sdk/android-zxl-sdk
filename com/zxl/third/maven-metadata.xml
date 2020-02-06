@@ -3,12 +3,13 @@
   <groupId>com.zxl</groupId>
   <artifactId>third</artifactId>
   <versioning>
-    <release>1.0.3</release>
+    <release>1.0.4</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
       <version>1.0.3</version>
+      <version>1.0.4</version>
     </versions>
-    <lastUpdated>20200206143727</lastUpdated>
+    <lastUpdated>20200206161331</lastUpdated>
   </versioning>
 </metadata>
