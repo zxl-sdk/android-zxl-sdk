@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zxl</groupId>
+  <artifactId>zxing</artifactId>
+  <version>1.0.1-20200324-1246</version>
+  <packaging>aar</packaging>
+  <name>com.zxl.lib</name>
+  <description>qr code</description>
+  <url>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</url>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+      <distribution>Apache License Version 2.0</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zxl</id>
+      <name>zxl</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</connection>
+    <developerConnection>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</developerConnection>
+    <url>http://192.168.0.242:8082/android-dev/zhuyi-parking-droid</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>library</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>baseLibrary</artifactId>
+      <version>3.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.databinding</groupId>
+      <artifactId>adapters</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>arouter-api</artifactId>
+      <version>1.3.1</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>com.android.support</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.zxl</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0.1-20200307-1427</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
