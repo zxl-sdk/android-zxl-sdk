@@ -49,7 +49,7 @@
     <dependency>
       <groupId>com.zxl</groupId>
       <artifactId>base</artifactId>
-      <version>1.0.1-20200307-1427</version>
+      <version>1.0.1-20200603-1430</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
