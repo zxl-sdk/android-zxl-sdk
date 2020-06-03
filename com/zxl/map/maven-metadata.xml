@@ -3,11 +3,12 @@
   <groupId>com.zxl</groupId>
   <artifactId>map</artifactId>
   <versioning>
-    <release>1.0.1-20200204-1848</release>
+    <release>1.0.1-20200603-1430</release>
     <versions>
       <version>1.0.1-20200116-2323</version>
       <version>1.0.1-20200204-1848</version>
+      <version>1.0.1-20200603-1430</version>
     </versions>
-    <lastUpdated>20200603070046</lastUpdated>
+    <lastUpdated>20200603071423</lastUpdated>
   </versioning>
 </metadata>
